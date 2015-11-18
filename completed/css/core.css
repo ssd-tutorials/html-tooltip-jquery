@@ -1,0 +1,41 @@
+* {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	color:#333;
+	font-size:14px;
+}
+body {
+	padding:30px 0;
+	text-align:center;
+	font-family:Arial,Verdana,Sans-serif;
+	line-height: 21px;
+}
+#wrapper {
+	text-align: left;
+	width:800px;
+	margin:0 auto;
+}
+.dn {
+	display: none;
+}
+.tooltip {
+	border-bottom: dashed 1px #aaa;
+	text-decoration: none;
+	cursor: help;
+}
+.tooltip-target {
+	padding: 10px;
+	background: #efefef;
+	position: absolute;
+	display: none;
+	float: left;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	border: solid 1px #ddd;
+}
+.tooltip-target img {
+	float: left;
+}
